@@ -5,9 +5,9 @@ Mark is a functional "AI". (Machine Learning thing)
 
 REQUIREMENTS
 
-inotifywait (apt-get install inotify-tools)
+inotifywait # apt-get install inotify-tools
 
-mplayer (apt-get install mplayer)
+mplayer # apt-get install mplayer
 
 Google Cloud SDK (Straight from https://cloud.google.com/sdk/docs#deb) 
 
