@@ -1,0 +1,13 @@
+{
+  "input":{
+    "text":"no"
+  },
+  "voice":{
+    "languageCode":"en-US",
+    "name":"en-US-Standard-D",
+    "ssmlGender":"Male"
+  },
+  "audioConfig":{
+    "audioEncoding":"MP3"
+  }
+}
