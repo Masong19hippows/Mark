@@ -16,3 +16,9 @@ Google Cloud SDK (Straight from https://cloud.google.com/sdk/docs#deb)
 3. curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
 4. sudo apt-get update && sudo apt-get install google-cloud-sdk
 5. gcloud init
+
+
+SETUP
+
+1. Go to The directory auth and follow instructions there.
+2. Autostart the file Mark.sh by adding into Cron.
