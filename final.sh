@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # This direcotry is hardcoded and can be changed. This monitors changes to the request direcotry.
 # When a change is made, then it executes junk in the middle.
 dir1=/home/pi/jasper/request/
