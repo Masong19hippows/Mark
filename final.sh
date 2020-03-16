@@ -1,10 +1,11 @@
 #!/bin/sh
 # This direcotry is hardcoded and can be changed. This monitors changes to the request direcotry.
 # When a change is made, then it executes junk in the middle.
+DIR=/home/pi/Mark
+LOG=tmp/log.txt
 dir1=/home/pi/Mark/request/
 while inotifywait -qqre modify "$dir1"; do
 #
-DIR=/home/pi/Mark
 # This sets the credentials to the Google TTS API credentials file.
 export GOOGLE_APPLICATION_CREDENTIALS="auth/credentials.json"
 #
