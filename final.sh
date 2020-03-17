@@ -18,6 +18,6 @@ echo "Encoded mp3" > $LOG
 #
 # This decodes then autoplays the synthesized mp3 file.
 /usr/bin/base64 tmp/synthesize.txt --decode > final/synthesized.mp3
-/usr/bin/mplayer -novideo -idle -slave final/synthesized.mp3 </dev/null >/dev/null 2>&1 &
+# /usr/bin/mplayer -novideo -idle -slave final/synthesized.mp3 </dev/null >/dev/null 2>&1 &
 #
 done
