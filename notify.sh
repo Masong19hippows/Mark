@@ -4,10 +4,9 @@
 cd /home/pi/Mark
 LOG=tmp/log.txt
 dir1=request/
+echo "" > $LOG
 while inotifywait -qqre modify "$dir1"; do
 #
-# Clears Logs
-echo "" > $LOG
 #
 # This sets the credentials to the Google TTS API credentials file.
 export GOOGLE_APPLICATION_CREDENTIALS="auth/credentials.json"
@@ -18,7 +17,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="auth/credentials.json"
 /bin/sed -i 's/\(}\| \|{\|audioContent\|"\|:\)//g' tmp/synthesize.txt
 #
 # This logs the output of the curl command above.
-/bin/echo Encoded mp3 $(date) > $LOG
+/bin/echo Encoded mp3 $(date) >> $LOG
 /bin/cat tmp/synthesize.txt >> $LOG
 #
 # This decodes then autoplays the synthesized mp3 file.
