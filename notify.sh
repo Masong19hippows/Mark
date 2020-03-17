@@ -22,6 +22,6 @@ export GOOGLE_APPLICATION_CREDENTIALS="auth/credentials.json"
 #
 # This decodes then autoplays the synthesized mp3 file.
 /usr/bin/base64 tmp/synthesize.txt --decode > play/synthesized.mp3
-# /usr/bin/mplayer -novideo -idle -slave play/synthesized.mp3 </dev/null >/dev/null 2>&1 &
+/usr/bin/mplayer -novideo -idle -slave play/synthesized.mp3 </dev/null >/dev/null 2>&1 &
 #
 done
