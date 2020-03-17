@@ -9,3 +9,4 @@ cd /home/pi/Mark
 sleep 1
 ./edit.sh "Welcome Mason, my name is Mark."
 #
+echo $name

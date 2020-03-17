@@ -11,7 +11,7 @@ read  -p 'Y or N: ' yorn
 if [ $yorn = y ]
 then
 
-	sed -i -e 's/"Welcome.*,/"Welcome '$uservar',/g' Mark.sh
+	sed -i -e "s/"Welcome.*,/"Welcome $uservar,/g" Mark.sh
 	echo "Username $uservar selected"
 elif [ $yorn = n ]
 then

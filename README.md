@@ -21,4 +21,5 @@ Google Cloud SDK (Straight from https://cloud.google.com/sdk/docs#deb)
 SETUP
 
 1. Go to The directory auth and follow instructions there.
-2. Autostart the file Mark.sh by adding into Cron.
+2. Execute the file introduction.sh to imput Username into Mark.
+3. Autostart the file Mark.sh by adding into Cron.
