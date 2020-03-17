@@ -8,3 +8,4 @@ cd /home/pi/Mark
 ./notify.sh &
 sleep 1
 ./edit.sh "Welcome Mason, my name is Mark."
+#
